@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Function</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>FUNCTION</h1>
+	<script type="text/javascript">
+		var a= parseInt(prompt('Nhập giá trị của a: '))
+		console.log(a)
+		var b= parseInt(prompt('Nhập giá trị của b: '))
+		console.log(b)	
+
+		function cong(x,y)
+		{
+			return x+y
+
+		}
+		function tru(x,y)
+		{
+			return x-y
+
+		}function nhan(x,y)
+		{
+            return x*y
+
+		}function chia(x,y)
+		{
+			return x/y
+
+		}
+		var to = cong(a,b)
+		var tr = tru(a,b)
+		var nh = nhan(a,b)
+		var ch = chia(a,b)
+			document.write('Tổng: ' +to)
+			document.write('<br/>')
+			document.write('Hiệu: ' +tr)
+						document.write('<br/>')
+			document.write('Tích: ' +nh)
+						document.write('<br/>')
+			document.write('Thương: ' +ch)
+	</script>
+
+
+</body>
+</html>
